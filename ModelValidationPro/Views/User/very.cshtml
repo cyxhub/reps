@@ -1,0 +1,12 @@
+﻿@model ModelValidationPro.Models.Users
+@{
+    ViewData["Title"] = "very";
+}
+
+<h1>very</h1>
+<form asp-controller="user" asp-action="very">
+    <div asp-validation-summary="All"></div>
+    <input asp-for="@Model.name" />
+    <input asp-for="@Model.email" />
+    <input type="submit" value="验证" />
+</form>
