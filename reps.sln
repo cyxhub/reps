@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loggingtest", "Loggingtest\Loggingtest.csproj", "{852AB4F2-7527-46BE-8B67-863088E39A01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelValidationPro", "ModelValidationPro\ModelValidationPro.csproj", "{A6809BB0-6E16-4EEF-9054-67E30D1D05C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelValidationPro", "ModelValidationPro\ModelValidationPro.csproj", "{A6809BB0-6E16-4EEF-9054-67E30D1D05C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelbindPro", "ModelbindPro\ModelbindPro.csproj", "{EEDE92D9-60BA-4636-A633-F886803D9BEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A6809BB0-6E16-4EEF-9054-67E30D1D05C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6809BB0-6E16-4EEF-9054-67E30D1D05C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6809BB0-6E16-4EEF-9054-67E30D1D05C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEDE92D9-60BA-4636-A633-F886803D9BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEDE92D9-60BA-4636-A633-F886803D9BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEDE92D9-60BA-4636-A633-F886803D9BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEDE92D9-60BA-4636-A633-F886803D9BEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

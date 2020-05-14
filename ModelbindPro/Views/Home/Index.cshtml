@@ -1,0 +1,9 @@
+﻿@model ModelbindPro.Models.Person
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form asp-controller="person" asp-action="index">
+    <input name="text" />
+    <input type="submit" value="绑定" />
+</form>
