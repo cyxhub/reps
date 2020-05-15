@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\project\\Loggingtest\\Loggingtest\\Loggingtest.csproj": {}
+    "D:\\project\\reps\\Loggingtest\\Loggingtest.csproj": {}
   },
   "projects": {
-    "D:\\project\\Loggingtest\\Loggingtest\\Loggingtest.csproj": {
+    "D:\\project\\reps\\Loggingtest\\Loggingtest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\project\\Loggingtest\\Loggingtest\\Loggingtest.csproj",
+        "projectUniqueName": "D:\\project\\reps\\Loggingtest\\Loggingtest.csproj",
         "projectName": "Loggingtest",
-        "projectPath": "D:\\project\\Loggingtest\\Loggingtest\\Loggingtest.csproj",
+        "projectPath": "D:\\project\\reps\\Loggingtest\\Loggingtest.csproj",
         "packagesPath": "C:\\Users\\zijiec\\.nuget\\packages\\",
-        "outputPath": "D:\\project\\Loggingtest\\Loggingtest\\obj\\",
+        "outputPath": "D:\\project\\reps\\Loggingtest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zijiec\\AppData\\Roaming\\NuGet\\NuGet.Config",

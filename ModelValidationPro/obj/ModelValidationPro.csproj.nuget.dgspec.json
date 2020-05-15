@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\project\\Loggingtest\\ModelValidationPro\\ModelValidationPro.csproj": {}
+    "D:\\project\\reps\\ModelValidationPro\\ModelValidationPro.csproj": {}
   },
   "projects": {
-    "D:\\project\\Loggingtest\\ModelValidationPro\\ModelValidationPro.csproj": {
+    "D:\\project\\reps\\ModelValidationPro\\ModelValidationPro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\project\\Loggingtest\\ModelValidationPro\\ModelValidationPro.csproj",
+        "projectUniqueName": "D:\\project\\reps\\ModelValidationPro\\ModelValidationPro.csproj",
         "projectName": "ModelValidationPro",
-        "projectPath": "D:\\project\\Loggingtest\\ModelValidationPro\\ModelValidationPro.csproj",
+        "projectPath": "D:\\project\\reps\\ModelValidationPro\\ModelValidationPro.csproj",
         "packagesPath": "C:\\Users\\zijiec\\.nuget\\packages\\",
-        "outputPath": "D:\\project\\Loggingtest\\ModelValidationPro\\obj\\",
+        "outputPath": "D:\\project\\reps\\ModelValidationPro\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zijiec\\AppData\\Roaming\\NuGet\\NuGet.Config",

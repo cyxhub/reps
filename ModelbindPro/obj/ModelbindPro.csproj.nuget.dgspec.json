@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\project\\Loggingtest\\ModelbindPro\\ModelbindPro.csproj": {}
+    "D:\\project\\reps\\ModelbindPro\\ModelbindPro.csproj": {}
   },
   "projects": {
-    "D:\\project\\Loggingtest\\ModelbindPro\\ModelbindPro.csproj": {
+    "D:\\project\\reps\\ModelbindPro\\ModelbindPro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\project\\Loggingtest\\ModelbindPro\\ModelbindPro.csproj",
+        "projectUniqueName": "D:\\project\\reps\\ModelbindPro\\ModelbindPro.csproj",
         "projectName": "ModelbindPro",
-        "projectPath": "D:\\project\\Loggingtest\\ModelbindPro\\ModelbindPro.csproj",
+        "projectPath": "D:\\project\\reps\\ModelbindPro\\ModelbindPro.csproj",
         "packagesPath": "C:\\Users\\zijiec\\.nuget\\packages\\",
-        "outputPath": "D:\\project\\Loggingtest\\ModelbindPro\\obj\\",
+        "outputPath": "D:\\project\\reps\\ModelbindPro\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zijiec\\AppData\\Roaming\\NuGet\\NuGet.Config",
