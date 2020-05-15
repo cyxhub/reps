@@ -7,9 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loggingtest", "Loggingtest\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelValidationPro", "ModelValidationPro\ModelValidationPro.csproj", "{A6809BB0-6E16-4EEF-9054-67E30D1D05C4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelbindPro", "ModelbindPro\ModelbindPro.csproj", "{EEDE92D9-60BA-4636-A633-F886803D9BEC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlhelperPro", "HtmlhelperPro\HtmlhelperPro.csproj", "{295B8066-23D5-4AAD-8048-0B96145026D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelbindPro", "ModelbindPro\ModelbindPro.csproj", "{EEDE92D9-60BA-4636-A633-F886803D9BEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{EEDE92D9-60BA-4636-A633-F886803D9BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEDE92D9-60BA-4636-A633-F886803D9BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEDE92D9-60BA-4636-A633-F886803D9BEC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{295B8066-23D5-4AAD-8048-0B96145026D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{295B8066-23D5-4AAD-8048-0B96145026D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{295B8066-23D5-4AAD-8048-0B96145026D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{295B8066-23D5-4AAD-8048-0B96145026D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

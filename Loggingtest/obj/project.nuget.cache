@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UgXIKxv5QqDW89w8qtIHUhAZ29RAlwvBz/YlkhR7HV3B0rdKV5xG2SpxhvZT369e/cqzD3MT77c+9bnYxwxpYg==",
+  "dgSpecHash": "F6PhBeF99q5ONXMdUKnUXO5OGoxO8yCqaun+piFqmYMLFP/bjOFCn6DoU5gcX4h0v/2CD4Dv4P1nD0aZboPOEQ==",
   "success": true,
-  "projectFilePath": "D:\\project\\reps\\Loggingtest\\Loggingtest.csproj",
+  "projectFilePath": "D:\\project\\Loggingtest\\Loggingtest\\Loggingtest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zijiec\\.nuget\\packages\\microsoft.extensions.configuration\\3.0.0\\microsoft.extensions.configuration.3.0.0.nupkg.sha512",
     "C:\\Users\\zijiec\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.0.0\\microsoft.extensions.configuration.abstractions.3.0.0.nupkg.sha512",

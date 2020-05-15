@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WSY5KkL5IK6BymKIhmp0KNPMIV5/2G0x2oFGmHuVNFLaJtJccez2YCDEHjzsLJYGLpWwfiq/o8c+vy/8U8JJeA==",
+  "dgSpecHash": "JVl1/iFvgYrX+DPukn2fNCOazXr9sXO2urJy6LgY4TdoEWaDdju7jeXJBcDbwSoKOv1JCD/NUQ/+odNdT8lx+w==",
   "success": true,
-  "projectFilePath": "D:\\project\\reps\\ModelValidationPro\\ModelValidationPro.csproj",
+  "projectFilePath": "D:\\project\\Loggingtest\\ModelValidationPro\\ModelValidationPro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zijiec\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\zijiec\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
