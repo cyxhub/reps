@@ -1,0 +1,74 @@
+﻿@model HtmlhelperPro.Models.User
+
+@using HtmlhelperPro.Models
+@{
+    ViewData["Title"] = "Index";
+}
+<h4>标记</h4>
+<a asp-protocol="https" asp-host="localhost:44376" asp-controller="home" asp-action="index">链接</a>
+<br />
+<a id="first" href="#second">second</a>
+<h4>缓存</h4>
+<cache>@DateTime.Now</cache>|
+<span>@DateTime.Now</span>
+<br />
+
+<cache enabled="true">
+    true能够缓存，this is time:@DateTime.Now
+</cache>
+<br />
+<cache expires-on="@new DateTime(2020,5,15,15,01,01)">
+    expires-on:具体缓存到的时间，@DateTime.Now
+</cache>
+<br />
+<cache expires-after="@TimeSpan.FromSeconds(10)">
+    缓存后，十秒缓存一次：@DateTime.Now
+</cache>
+<br />
+<cache expires-sliding="@TimeSpan.FromSeconds(10)">
+    @DateTime.Now
+</cache>
+<br />
+<cache vary-by-header="User-Agent">
+    very-by-header:@DateTime.Now
+</cache>
+<br />
+<cache vary-by-query="mk,mu">
+    very-by -query:@DateTime.Now
+</cache>
+<br />
+<cache vary-by-cookie=".AspNetCore.Identity.Application">
+    very-by-cookie:@DateTime.Now 
+</cache>
+<br />
+<environment names="Development">
+    <strong>zheshi kaifa moshi </strong>
+</environment>
+<environment names="Staging">
+    <i>zhe shi yan shi mo shi</i>
+</environment>
+<br />
+<img src="" asp-append-version="true" />
+<br />
+<partial name="../Shared/other.cshtml" for='@Model'/>
+<partial name="../Shared/other.cshtml" model='new User { id=1,name="oier"}' />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<a id="second" href="#first">点second</a>
