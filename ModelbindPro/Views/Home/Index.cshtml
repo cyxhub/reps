@@ -7,3 +7,9 @@
     <input name="text" />
     <input type="submit" value="绑定" />
 </form>
+
+<form asp-controller="person" asp-action="index2" method="post">
+    <input asp-for="@Model.id" />
+    <input asp-for="@Model.name" />
+    <input type="submit" value="绑定class模型" />
+</form>

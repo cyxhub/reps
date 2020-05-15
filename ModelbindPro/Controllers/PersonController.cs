@@ -14,6 +14,13 @@ namespace ModelbindPro.Controllers
         {
             return Json(text);
         }
-       
+        public IActionResult index2([ModelBinder(BinderType = typeof(CustombindclassBinder))]Person person)
+        {
+            return Json(person);
+        }
+        public IActionResult index3(Person person)
+        {
+            return Json(person);
+        }
     }
 }
