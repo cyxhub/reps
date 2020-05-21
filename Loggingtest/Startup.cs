@@ -46,22 +46,22 @@ namespace Loggingtest
                 app.UseHsts();
             }
             loggerFactory.AddNLog();
-           
+
             /*loggerFactory.AddProvider(new ColoredconsolelogProvider(new ColoredConsoleLoggerConfiguration
             {
-                logLevel = LogLevel.Warning,
-                color = ConsoleColor.Blue
-            }));
-            loggerFactory.AddProvider(new ColoredconsolelogProvider(new ColoredConsoleLoggerConfiguration
-            {
-                logLevel = LogLevel.Debug,
-                color = ConsoleColor.Gray
-            }));
-            loggerFactory.AddProvider(new ColoredconsolelogProvider(new ColoredConsoleLoggerConfiguration
-            {
                 logLevel = LogLevel.Information,
-                color=ConsoleColor.Red
-            })) ;*/
+                color = ConsoleColor.Yellow
+            }));
+             loggerFactory.AddProvider(new ColoredconsolelogProvider(new ColoredConsoleLoggerConfiguration
+             {
+                 logLevel = LogLevel.Debug,
+                 color = ConsoleColor.Gray
+             }));
+             loggerFactory.AddProvider(new ColoredconsolelogProvider(new ColoredConsoleLoggerConfiguration
+             {
+                 logLevel = LogLevel.Information,
+                 color=ConsoleColor.Red
+             })) ;*/
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

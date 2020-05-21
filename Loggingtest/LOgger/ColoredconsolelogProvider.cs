@@ -22,7 +22,7 @@ namespace Loggingtest.LOgger
 
         public void Dispose()
         {
-            
+            Console.WriteLine("dispose -==-");
         }
     }
 }

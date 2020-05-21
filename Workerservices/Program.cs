@@ -22,10 +22,10 @@ namespace Workerservices
                     //开始的第一个
                     //services.AddHostedService<Worker>();
                     //计时
-                    //services.AddHostedService<TimedHostedService>();
+                    services.AddHostedService<TimedHostedService>();
                     //consume scoped
-                    services.AddHostedService<CusumeScopedHostedService>();
-                    services.AddScoped<ScopeProcessingService>();
+                    /*services.AddHostedService<CusumeScopedHostedService>();
+                    services.AddScoped<ScopeProcessingService>();*/
                 });
     }
 }
