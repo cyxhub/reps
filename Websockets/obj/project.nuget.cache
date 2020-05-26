@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "nvO2Amnq0zerz7i/sg5jVp/p14jBG+kOsjRj1h7/h8SvzWh8M+zcA7tpxDs/lAJR/qOKFwKjUbh3AxuRLdEciw==",
+  "success": true,
+  "projectFilePath": "D:\\project\\reps\\Websockets\\Websockets.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zijiec\\.nuget\\packages\\fleck\\1.1.0\\fleck.1.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
