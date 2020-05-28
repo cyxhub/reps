@@ -13,3 +13,8 @@ https://blog.csdn.net/huanghuangtongxue/article/details/79083975
     logger.LogWarning();
     logger.LogError();
     logger.LogCritical();
+
+某些情况
+NLog.LogManager.GetCurrentClassLogger().Trace("-==-=-=-=-ILogger LogTrace from WeatherForecastController");
+取代
+logger.LogTrace("");
