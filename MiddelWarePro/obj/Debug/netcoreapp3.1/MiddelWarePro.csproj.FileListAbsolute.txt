@@ -34,3 +34,4 @@ D:\project\reps\MiddelWarePro\obj\Debug\netcoreapp3.1\MiddelWarePro.dll
 D:\project\reps\MiddelWarePro\obj\Debug\netcoreapp3.1\MiddelWarePro.pdb
 D:\project\reps\MiddelWarePro\obj\Debug\netcoreapp3.1\MiddelWarePro.genruntimeconfig.cache
 D:\project\reps\MiddelWarePro\obj\Debug\netcoreapp3.1\MiddelWarePro.csproj.CopyComplete
+D:\project\reps\MiddelWarePro\obj\Debug\netcoreapp3.1\MiddelWarePro.csprojAssemblyReference.cache

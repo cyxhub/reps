@@ -47,14 +47,16 @@ namespace MiddelWarePro
 
             app.UseAuthorization();
 
-
-            /* app.Use(async (context,next)=> {
+            /*app.Run(async context=> {
+                await context.Response.WriteAsync("this is run method*-*-");
+            });
+             app.Use(async (context,next)=> {
                  Console.WriteLine("app use +++++++++++");
                  await next.Invoke();
              });
-             app.Run(async context=> {
-                await context.Response.WriteAsync("this is a basic middle ware") ;
-            });*/
+            app.Run(async context=> {
+               await context.Response.WriteAsync("this is a basic middle ware") ;
+           });*/
 
             /*app.Map("/map",
                 (IApplicationBuilder app2) =>
@@ -75,7 +77,7 @@ namespace MiddelWarePro
                 });
             });*/
 
-            app.Map("/level",levels=> {
+            /*app.Map("/level",levels=> {
                 levels.Map("/levelchild", levelchild =>
                 {
                     levelchild.Map("/levels", (IApplicationBuilder app2) =>
@@ -92,8 +94,8 @@ namespace MiddelWarePro
                             await context.Response.WriteAsync("it is from /level mapwhen-----"+context.Request.Query["parm"]);
                         });
                     });
-            });
+            });*/
         }
-        
+
     }
 }
