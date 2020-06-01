@@ -1,10 +1,10 @@
 session
 1 nugut session
-2 ÔÚConfigureServicesÖĞ£º
+2 åœ¨ConfigureServicesä¸­ï¼š
 	services.addSession();
-3 ÔÚConfigureÖĞ£º
+3 åœ¨Configureä¸­ï¼š
     app.UseSession();
-4 ÔÚcontrollerÖĞ£º
+4 åœ¨controllerä¸­ï¼š
   HttpContext.Session.setSting("","");
 
 =========================================
@@ -18,7 +18,7 @@ services.AddDbContextPool<TodoContext>(
                     options.UseSqlServer(_configuration.GetConnectionString("productconnection"));
                 });
 -----------------------------------------------------------
-jsonÖĞÎÄ±àÂë£¬ÔÚstartupÖĞ
+jsonä¸­æ–‡ç¼–ç ï¼Œåœ¨startupä¸­
 public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews().AddJsonOptions(
@@ -28,22 +28,22 @@ public void ConfigureServices(IServiceCollection services)
                 }
                 );
         }
-Ğ´ÈëÒ³Ãæ
+å†™å…¥é¡µé¢
 Response.ContentType = "text/plain;charset=utf-8";
 ===================================================
-Íâ²¿¾²Ì¬ÎÄ¼ş
+å¤–éƒ¨é™æ€æ–‡ä»¶
 public void Configure(IApplicationBuilder app)
 {
-     //µÚÒ»¸öµ÷ÓÃÌá¹©wwwrootÎÄ¼ş¼ĞÖĞµÄ¾²Ì¬ÎÄ¼ş¡£
-¡¡¡¡ app.UseStaticFiles(); 
-¡¡¡¡ //µÚ¶ş¸öµ÷ÓÃÊ¹ÓÃURL http://<server_address>/MyImagesä¯ÀÀwwwroot/imagesÎÄ¼ş¼ĞµÄÄ¿Â¼¡£
+     //ç¬¬ä¸€ä¸ªè°ƒç”¨æä¾›wwwrootæ–‡ä»¶å¤¹ä¸­çš„é™æ€æ–‡ä»¶ã€‚
+ã€€ã€€ app.UseStaticFiles(); 
+ã€€ã€€ //ç¬¬äºŒä¸ªè°ƒç”¨ä½¿ç”¨URL http://<server_address>/MyImagesæµè§ˆwwwroot/imagesæ–‡ä»¶å¤¹çš„ç›®å½•ã€‚
     app.UseStaticFiles(new StaticFileOptions
     {
         FileProvider = new PhysicalFileProvider(
             Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images")),
         RequestPath = "/MyImages"
     });
-//ÏÔÊ¾Ä¿Â¼
+//æ˜¾ç¤ºç›®å½•
     app.UseDirectoryBrowser(new DirectoryBrowserOptions
     {
         FileProvider = new PhysicalFileProvider(
@@ -52,7 +52,7 @@ public void Configure(IApplicationBuilder app)
     });
 }
 -------------------------------------------------------------
-CoreÌá¹©ÁËUseFileServer¶ÔÏó£¬Õâ¸ö¶ÔÏó¼¯³ÉÁËUseStaticFiles¡¢UseDefaultFilesºÍ UseDirectoryBrowserµÄ¹¦ÄÜ¡£ÏÂÃæÎÒÃÇÍ¨¹ı´úÂëÀ´¿´¿´ÈçºÎÊ¹ÓÃ¡£
+Coreæä¾›äº†UseFileServerå¯¹è±¡ï¼Œè¿™ä¸ªå¯¹è±¡é›†æˆäº†UseStaticFilesã€UseDefaultFileså’Œ UseDirectoryBrowserçš„åŠŸèƒ½ã€‚ä¸‹é¢æˆ‘ä»¬é€šè¿‡ä»£ç æ¥çœ‹çœ‹å¦‚ä½•ä½¿ç”¨ã€‚
 public void ConfigureServices(IServiceCollection services)
 {
     services.AddDirectoryBrowser();
@@ -69,3 +69,14 @@ public void Configure(IApplicationBuilder app)
         EnableDirectoryBrowsing = true
     });
 }
+==============================================
+è·å–å¹¶å®ç°è·³è½¬è·¯ç”±
+app.Use(async (context,next)=> {
+                //Console.WriteLine(context.Request.RouteValues["action"]);
+                if (context.Request.Query.ContainsKey("kk"))
+                {
+                    context.Request.RouteValues["controller"] = "home";
+                    context.Request.RouteValues["action"] = "login";
+                }
+                await next();
+             });
