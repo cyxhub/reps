@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>index</h1>
+<a asp-controller="home" asp-action="resource">resource</a>
+<br />
+<form action="home/authenticate" method="post">
+    <input type="submit" name="name" value="authentication" />
+</form>
