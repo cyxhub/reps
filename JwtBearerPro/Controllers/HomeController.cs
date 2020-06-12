@@ -41,19 +41,17 @@ namespace JwtBearerPro.Controllers
         }
 
         
-        public IActionResult Authenticate()
+        public IActionResult Authenticate(string username,string userpassword,string email)
         {
             var user = new Users
             {
-                /*name=model.name,
-                password=model.password,
-                email=model.email*/
+                
                 id=10,
-                name="jemmy",
-                password="et",
-                email="jemmy@qq.com"
+                name=username,
+                password=userpassword,
+                email=email
             };
-            //if (user == null) return Redirect("login");
+            
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes("this is a public key");
             var authTime = DateTime.Now;

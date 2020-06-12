@@ -52,7 +52,7 @@ namespace CookieAuthentication.Controllers
                     new Claim(ClaimTypes.Name,user.name),
                     new Claim("age",$"{user.age}")
                 };
-                var personIdentity = new ClaimsIdentity(userClaim, "CookieAuthentication");
+                var personIdentity = new ClaimsIdentity(userClaim, "identitycard");
                 var principle = new ClaimsPrincipal(new[] { personIdentity });
                 HttpContext.SignInAsync(principle);
                 return Redirect("/home/resource");
@@ -62,6 +62,7 @@ namespace CookieAuthentication.Controllers
         [Authorize]
         public IActionResult resource()
         {
+            ViewBag.cok = HttpContext.Request.Cookies["accountname"];
             return View();
         }
     }

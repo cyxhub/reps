@@ -28,7 +28,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "authentication", "authentic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookieAuthenticationPro", "CookieAuthentication\CookieAuthenticationPro.csproj", "{5116FC60-78DD-41C2-80F1-2842C5E20D5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtBearerPro", "JwtBearerPro\JwtBearerPro.csproj", "{A4BF25E1-6B53-4BC3-B110-9BB07BDF0CBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtBearerPro", "JwtBearerPro\JwtBearerPro.csproj", "{A4BF25E1-6B53-4BC3-B110-9BB07BDF0CBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilePro", "FilePro\FilePro.csproj", "{462094D4-D0F2-4C4D-8E2C-87133957BC55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -76,6 +78,10 @@ Global
 		{A4BF25E1-6B53-4BC3-B110-9BB07BDF0CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4BF25E1-6B53-4BC3-B110-9BB07BDF0CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4BF25E1-6B53-4BC3-B110-9BB07BDF0CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462094D4-D0F2-4C4D-8E2C-87133957BC55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462094D4-D0F2-4C4D-8E2C-87133957BC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462094D4-D0F2-4C4D-8E2C-87133957BC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462094D4-D0F2-4C4D-8E2C-87133957BC55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
