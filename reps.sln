@@ -30,7 +30,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookieAuthenticationPro", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtBearerPro", "JwtBearerPro\JwtBearerPro.csproj", "{A4BF25E1-6B53-4BC3-B110-9BB07BDF0CBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilePro", "FilePro\FilePro.csproj", "{462094D4-D0F2-4C4D-8E2C-87133957BC55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilePro", "FilePro\FilePro.csproj", "{462094D4-D0F2-4C4D-8E2C-87133957BC55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutePro", "RoutePro\RoutePro.csproj", "{FA551782-31EF-4677-8438-D1A673DB932F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -82,6 +84,10 @@ Global
 		{462094D4-D0F2-4C4D-8E2C-87133957BC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{462094D4-D0F2-4C4D-8E2C-87133957BC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{462094D4-D0F2-4C4D-8E2C-87133957BC55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA551782-31EF-4677-8438-D1A673DB932F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA551782-31EF-4677-8438-D1A673DB932F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA551782-31EF-4677-8438-D1A673DB932F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA551782-31EF-4677-8438-D1A673DB932F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
