@@ -34,7 +34,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FilePro", "FilePro\FilePro.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoutePro", "RoutePro\RoutePro.csproj", "{FA551782-31EF-4677-8438-D1A673DB932F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFPro", "EFPro\EFPro.csproj", "{EF397867-BE1B-4FBF-A12C-76E6532EF1F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFPro", "EFPro\EFPro.csproj", "{EF397867-BE1B-4FBF-A12C-76E6532EF1F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestPro", "RestPro\RestPro.csproj", "{7FE2504B-319D-47C5-9965-92E88A69C0F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphqlPro", "GraphqlPro\GraphqlPro.csproj", "{A10F3631-7F55-47D0-A071-F9DF3A431EDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -94,6 +98,14 @@ Global
 		{EF397867-BE1B-4FBF-A12C-76E6532EF1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF397867-BE1B-4FBF-A12C-76E6532EF1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF397867-BE1B-4FBF-A12C-76E6532EF1F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE2504B-319D-47C5-9965-92E88A69C0F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE2504B-319D-47C5-9965-92E88A69C0F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE2504B-319D-47C5-9965-92E88A69C0F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE2504B-319D-47C5-9965-92E88A69C0F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A10F3631-7F55-47D0-A071-F9DF3A431EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A10F3631-7F55-47D0-A071-F9DF3A431EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A10F3631-7F55-47D0-A071-F9DF3A431EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A10F3631-7F55-47D0-A071-F9DF3A431EDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
